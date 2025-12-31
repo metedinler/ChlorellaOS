@@ -7,6 +7,10 @@ tüm aşamaları gösterir.
 © 2025 Mete Dinler. All rights reserved.
 """
 
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from datetime import datetime, timedelta
 from chlorellaos.cultivation import (
     CultivationEnvironment, GrowthTracker, HarvestManager

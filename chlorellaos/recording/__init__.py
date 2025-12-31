@@ -33,11 +33,22 @@ class DataRecorder:
                 record_type TEXT NOT NULL,
                 module TEXT NOT NULL,
                 data TEXT NOT NULL,
-                created_by TEXT,
-                INDEX idx_batch_id (batch_id),
-                INDEX idx_timestamp (timestamp),
-                INDEX idx_record_type (record_type)
+                created_by TEXT
             )
+        """)
+        
+        # İndeksler
+        cursor.execute("""
+            CREATE INDEX IF NOT EXISTS idx_batch_id 
+            ON production_records (batch_id)
+        """)
+        cursor.execute("""
+            CREATE INDEX IF NOT EXISTS idx_timestamp 
+            ON production_records (timestamp)
+        """)
+        cursor.execute("""
+            CREATE INDEX IF NOT EXISTS idx_record_type 
+            ON production_records (record_type)
         """)
         
         # Batch bilgi tablosu
