@@ -1,0 +1,90 @@
+NOTICE
+
+ChlorellaOS - Akıllı Üretim İzleme Sistemi
+Chlorella Vulgaris Endüstriyel Üretim ve İmmobilizasyon Prosesi İzleme Sistemi
+
+Copyright © 2025 Mete Dinler. All rights reserved.
+
+================================================================================
+
+TELIF HAKKI VE KULLANIM KOŞULLARI
+
+Bu yazılım ve tüm ilgili belgeler (topluca "Yazılım") Zuhtu Mete Dinler 
+tarafından geliştirilmiştir ve telif hakkı koruması altındadır.
+
+ÖNEMLI UYARILAR:
+
+1. KULLANIMA AÇIK DEĞİLDİR
+   Bu Yazılım genel kullanıma açık değildir. Kullanım için özel izin ve 
+   lisans gereklidir.
+
+2. ÜCRET ÖDEMEDEN KULLANILAMAZ
+   Bu Yazılımın herhangi bir şekilde kullanımı için geçerli bir ticari 
+   lisans ve ödeme gereklidir. Ücret ödemeden kullanım kesinlikle yasaktır.
+
+3. TÜM HAKLAR SAKLDIR
+   Bu Yazılımın tüm hakları ZUHTU METE DINLER'e aittir ve saklıdır.
+
+YETKİSİZ KULLANIM:
+
+Aşağıdaki eylemler kesinlikle yasaktır:
+- Yetkisiz kopyalama
+- Yetkisiz değiştirme veya türev eser oluşturma
+- Yetkisiz dağıtım
+- Tersine mühendislik
+- Kaynak kodun açığa çıkarılması
+- Ticari veya ticari olmayan amaçlarla izinsiz kullanım
+- Lisans mekanizmalarının devre dışı bırakılması
+
+SORUMLULUK REDDİ:
+
+Bu Yazılım "olduğu gibi" sağlanmaktadır. Açık veya zımni hiçbir garanti 
+verilmemektedir. Yazılımın kullanımından doğabilecek herhangi bir zarardan 
+yazılım sahibi sorumlu tutulamaz.
+
+LİSANSLAMA VE İLETİŞİM:
+
+Lisans satın alma ve kullanım hakları hakkında bilgi için:
+- Repository: https://github.com/metedinler/ChlorellaOS
+- E-posta: contact@chlorellaos.com
+- Telif Hakkı Sahibi: Zuhtu Mete Dinler
+
+ÜÇÜNCÜ TARAF BİLEŞENLER:
+
+Bu Yazılım, kendi lisanslarına tabi olan üçüncü taraf Python kütüphaneleri 
+kullanabilir. Bu kütüphanelerin lisansları ilgili paketlerde belirtilmiştir.
+
+HUKUKI UYUM:
+
+Bu Yazılımın kullanımı için Türkiye Cumhuriyeti yasaları ve uluslararası 
+telif hakkı anlaşmaları geçerlidir.
+
+================================================================================
+
+SYSTEM FEATURES / SİSTEM ÖZELLİKLERİ:
+
+Bu sistem aşağıdaki modülleri içerir:
+1. Yetiştiricilik İzleme (Cultivation Monitoring)
+2. Analiz ve Ölçüm (Analysis & Measurement)
+3. Kayıt Sistemi (Recording System)
+4. Muhasebe (Accounting)
+5. Karlılık Analizi ve Fizibilite (Profitability Analysis)
+
+Detaylı bilgi için docs/user_guide.md dosyasına bakınız.
+
+================================================================================
+
+VERSION HISTORY / SÜRÜM GEÇMİŞİ:
+
+Version 1.0.0 (2025-01-01)
+- Initial release
+- Full production monitoring system
+- All five core modules implemented
+- Comprehensive documentation
+
+================================================================================
+
+© 2025 Mete Dinler. All rights reserved.
+Unauthorized copying, modification, or distribution is prohibited.
+
+Bu dosya Yazılımın bir parçasıdır ve Yazılım ile birlikte dağıtılmalıdır.
