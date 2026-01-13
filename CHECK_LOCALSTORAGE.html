@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ChlorellaOS - LocalStorage Kontrol</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1e1e1e; color: #00ff00; }
+        pre { background: #000; padding: 20px; border-radius: 8px; overflow-x: auto; }
+        button { padding: 10px 20px; font-size: 16px; margin: 10px; cursor: pointer; }
+        .info { color: #ffaa00; font-weight: bold; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>🔍 ChlorellaOS - LocalStorage Verileri Kontrol</h1>
+    <div class="info">Tarayıcınızda localhost:3001 sayfasını açın ve bu sayfayı da açın (aynı origin)</div>
+    
+    <button onclick="checkData()">Verileri Kontrol Et</button>
+    <button onclick="showAll()">Tüm LocalStorage'ı Göster</button>
+    <button onclick="backupData()">Verileri Dışa Aktar (JSON)</button>
+    
+    <h2>Sonuçlar:</h2>
+    <pre id="output">Henüz kontrol yapılmadı...</pre>
+
+    <script>
+        function checkData() {
+            const output = document.getElementById('output');
+            let result = '📊 CHLORELlAOS VERİ KONTROLÜ\n';
+            result += '=' .repeat(60) + '\n\n';
+
+            // Malzeme Listesi
+            const materials = localStorage.getItem('chlorellaMaterials');
+            if (materials) {
+                const data = JSON.parse(materials);
+                result += `✅ MALZEME LİSTESİ: ${data.length} adet malzeme bulundu\n\n`;
+                result += 'İlk 5 malzeme:\n';
+                data.slice(0, 5).forEach((m, i) => {
+                    result += `${i+1}. ${m.name} (${m.category}) - Stok: ${m.quantity} ${m.unit}\n`;
+                });
+            } else {
+                result += '❌ MALZEME LİSTESİ: Veri bulunamadı!\n';
+            }
+
+            result += '\n' + '-'.repeat(60) + '\n\n';
+
+            // Alışveriş Listesi
+            const shopping = localStorage.getItem('chlorellaShoppingList');
+            if (shopping) {
+                const data = JSON.parse(shopping);
+                result += `✅ ALIŞVERİŞ LİSTESİ: ${data.length} adet ürün\n`;
+            } else {
+                result += '⚠️ ALIŞVERİŞ LİSTESİ: Boş\n';
+            }
+
+            // Tank States
+            const tanks = localStorage.getItem('tankStates');
+            if (tanks) {
+                const data = JSON.parse(tanks);
+                result += `✅ TANK VERİLERİ: ${data.length} tank\n`;
+            } else {
+                result += '⚠️ TANK VERİLERİ: Bulunamadı\n';
+            }
+
+            // Lab Journal
+            const journal = localStorage.getItem('chlorellaLabJournal');
+            if (journal) {
+                const data = JSON.parse(journal);
+                result += `✅ LAB DEFTERİ: ${data.length} kayıt\n`;
+            } else {
+                result += '⚠️ LAB DEFTERİ: Boş\n';
+            }
+
+            output.textContent = result;
+        }
+
+        function showAll() {
+            const output = document.getElementById('output');
+            let result = '🗄️ TÜM LOCALSTORAGE VERİLERİ\n';
+            result += '='.repeat(60) + '\n\n';
+
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                const value = localStorage.getItem(key);
+                const size = new Blob([value]).size;
+                result += `${key}: ${(size/1024).toFixed(2)} KB\n`;
+            }
+
+            output.textContent = result;
+        }
+
+        function backupData() {
+            const backup = {};
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                backup[key] = localStorage.getItem(key);
+            }
+
+            const blob = new Blob([JSON.stringify(backup, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `chlorellaOS_backup_${new Date().toISOString().slice(0,10)}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            alert('✅ Veriler indirildi: ' + a.download);
+        }
+
+        // Sayfa yüklenince otomatik kontrol
+        window.onload = checkData;
+    </script>
+</body>
+</html>
