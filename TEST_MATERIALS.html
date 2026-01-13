@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>🔬 Kimyasal Test</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1a1a1a; color: #0f0; }
+        .success { color: #0f0; }
+        .error { color: #f00; }
+        .warning { color: #ff0; }
+        pre { background: #000; padding: 10px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔬 MaterialsContext Test</h1>
+    <div id="result"></div>
+
+    <script>
+        const result = document.getElementById('result');
+        
+        // localStorage'dan malzemeleri oku
+        const chlorellaMaterials = localStorage.getItem('chlorellaMaterials');
+        
+        if (!chlorellaMaterials) {
+            result.innerHTML = '<p class="error">❌ localStorage[\'chlorellaMaterials\'] BOŞ!</p>';
+        } else {
+            const materials = JSON.parse(chlorellaMaterials);
+            const chemicals = materials.filter(m => m.category === 'Kimyasal');
+            const withStock = chemicals.filter(c => c.currentStock && c.currentStock > 0);
+            
+            result.innerHTML = `
+                <p class="success">✅ Toplam Malzeme: ${materials.length}</p>
+                <p class="success">✅ Kimyasal: ${chemicals.length}</p>
+                <p class="${withStock.length > 0 ? 'success' : 'error'}">
+                    ${withStock.length > 0 ? '✅' : '❌'} Stoktaki Kimyasal: ${withStock.length}
+                </p>
+                
+                <h3>📦 Stoktaki Kimyasallar:</h3>
+                <pre>${JSON.stringify(withStock.map(c => ({
+                    name: c.name,
+                    formula: c.formula,
+                    stock: c.currentStock,
+                    unit: c.unit
+                })), null, 2)}</pre>
+                
+                <h3>🔍 İlk 5 Kimyasal (Stok Durumu):</h3>
+                <pre>${JSON.stringify(chemicals.slice(0, 5).map(c => ({
+                    name: c.name,
+                    formula: c.formula || c.note,
+                    stock: c.currentStock || 0,
+                    unit: c.unit
+                })), null, 2)}</pre>
+            `;
+        }
+    </script>
+</body>
+</html>
