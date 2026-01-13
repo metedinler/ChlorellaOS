@@ -1,0 +1,61 @@
+{
+  "_comment": "ChlorellaOS Launcher Configuration File",
+  "_version": "1.0.0",
+  "_description": "Bu dosyayı düzenleyerek launcher davranışını özelleştirebilirsiniz",
+  
+  "application": {
+    "name": "ChlorellaOS",
+    "version": "2.0.0",
+    "description": "Mikroalg Üretim İzleme ve Yönetim Sistemi"
+  },
+  
+  "server": {
+    "port": 3000,
+    "autoOpen": true,
+    "autoOpenDelay": 3,
+    "_portComment": "Vite dev sunucusu portu. Değiştirirseniz vite.config.js'yi de güncelleyin"
+  },
+  
+  "startup": {
+    "enabled": true,
+    "delay": 5,
+    "waitForNetwork": true,
+    "_delayComment": "Windows başlangıcından sonra kaç saniye beklensin (sistem servislerinin hazır olması için)"
+  },
+  
+  "errorHandling": {
+    "maxRetries": 3,
+    "retryDelay": 5,
+    "autoRecovery": true,
+    "killExistingProcess": true,
+    "_autoRecoveryComment": "Port dolu olduğunda otomatik olarak mevcut prosesi durdur"
+  },
+  
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "maxLogSize": 5242880,
+    "keepOldLogs": true,
+    "_levelComment": "DEBUG, INFO, WARNING, ERROR",
+    "_maxLogSizeComment": "Byte cinsinden (5MB = 5242880)"
+  },
+  
+  "performance": {
+    "preloadDependencies": false,
+    "cacheEnabled": true,
+    "compressionEnabled": true
+  },
+  
+  "advanced": {
+    "silentMode": true,
+    "minimizeToTray": false,
+    "checkForUpdates": false,
+    "_silentModeComment": "VBS wrapper ile tamamen görünmez çalışma"
+  },
+  
+  "paths": {
+    "logDirectory": "%TEMP%",
+    "lockFile": "%TEMP%\\ChlorellaOS.lock",
+    "_comment": "Ortam değişkenleri kullanılabilir: %TEMP%, %APPDATA%, vb."
+  }
+}
