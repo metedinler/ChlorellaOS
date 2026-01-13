@@ -1,0 +1,18 @@
+﻿ChlorellaOS Launcher Test Raporu
+Tarih: 2026-01-08 07:40:12
+═══════════════════════════════════════════════════════
+
+Toplam Test: 27
+Başarılı: 26
+Başarısız: 1
+Başarı Oranı: 96.3%
+
+Durum: UYARI
+
+Sistem Bilgisi:
+- PowerShell: 5.1.26100.7462
+- OS: Microsoft Windows NT 10.0.26200.0
+- Node.js: v24.3.0
+- npm: 11.4.2
+
+Bu rapor otomatik olarak oluşturulmuştur.
