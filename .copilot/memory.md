@@ -154,6 +154,28 @@ ilgilendigin projenin ic yapisini buraya yazacaksin.
 - `35dea82` -> durum loglari
 - `82c8780` -> pck aktif src envanteri
 
+---
+
+## 23 Subat 2026 - Alisveris -> Envanter Veri Katmani Entegrasyonu
+
+### Yapilan
+- `src/data/systemDataExtended.js` icine 2026-02 alimlari eklendi (id 74-158).
+- Kimyasaldepom listesi (48 kalem) icin KDV + kargo dagitimi kayit bazinda uygulandi.
+- Kimyalab/Oksilab/Elektromarket/Trendyol/Letgo alimlari envantere gecirildi.
+- BBM/BS11 stok cozelti setleri veri katmanina kaydedildi.
+
+### Kimyasal Eslestirme
+- `src/data/expandedChemicalDatabase.js` icine eksik indikator/analitik kalemler eklendi:
+   - Phenolphthalein
+   - Bromocresol-Green
+   - Eriochrome-Black-T
+   - Potassium-Permanganate
+   - Sodium-Dodecyl-Sulfate
+
+### Acik Kalan Teknik Not
+- KDV uyumsuzlugu notu gecerli: `RecommendationEngine` maliyet akisi ile `MaterialsContext` fatura/KDV modeli tam hizali degil.
+- Sonraki adim: tum maliyet hesaplarini tek helper uzerinden normalize etmek.
+
 ### GitHub Yedek Sonucu
 - `origin` once SSH ile baglandi, host key onaylandi.
 - SSH push yetkisi olmadigi icin HTTPS remote'a gecildi.

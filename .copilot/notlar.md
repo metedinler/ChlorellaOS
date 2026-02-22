@@ -24,3 +24,10 @@ Kural: Bu dosyada satir silinmez; sadece yeni not eklenir.
 - Cift tab nedeni: `package.json (vite --open)` + `vite.config.js (open:true)` + `launcher Start-Process`.
 - Duzeltme: `package.json` scriptlerinden `--open` kaldirildi, `vite.config.js` icin `open:false` yapildi.
 - Son durum: tarayici acilisi sadece launcher uzerinden.
+
+## 2026-02-23 EK NOT-2
+- `alisveris listelerim.txt (1)` kaynagi envantere islenmeye baslandi ve 2026-02 tarihli yeni kayitlar `src/data/systemDataExtended.js` icine eklendi.
+- 1. kimyasaldepom listesinde KDV (%20) + kargo (993 TL) kalemlere paylastirildi (`shippingCost: 20.69` / kalem).
+- Kimyalab/Oksilab/Elektromarket/Trendyol/Letgo kalemleri eklenirken KDV dahil-dahil degil bilgisi kayit bazinda ayristirildi.
+- BBM/BS11 stok kayitlari `Besi Yeri Stok` kategorisinde veri katmanina eklendi.
+- Onceki AI KDV uyarisi dogrulandi: `RecommendationEngine` tarafinda maliyet hesabi KDV ile her zaman tutarli degil; sonraki fazda cost pipeline teklestirilmeli.
