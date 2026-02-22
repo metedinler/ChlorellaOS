@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Beaker, BarChart3, Calculator, Database, DollarSign, Package, BookOpen, TrendingUp, Camera, LineChart, FileText, Activity, Microscope, HelpCircle, Scale, Scan, User, GraduationCap, FlaskConical, ShoppingCart, Syringe } from 'lucide-react';
 import { MaterialsProvider } from './contexts/MaterialsContext';
+import { EnforcedChlorellaSystemProvider } from './contexts/EnforcedChlorellaSystemContext';
 import simulationWorker from './workers/SimulationWorker';
 import ToastContainer from './components/ToastNotification';
 import MonitoringHub from './components/MonitoringHub';
@@ -48,6 +49,7 @@ function App() {
   }, []);
 
   return (
+    <EnforcedChlorellaSystemProvider>
     <MaterialsProvider>
     <ToastContainer />
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 p-6">
@@ -130,6 +132,7 @@ function App() {
       </div>
     </div>
     </MaterialsProvider>
+    </EnforcedChlorellaSystemProvider>
   );
 };
 
