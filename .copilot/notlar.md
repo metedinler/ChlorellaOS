@@ -19,3 +19,8 @@ Kural: Bu dosyada satir silinmez; sadece yeni not eklenir.
 - SSH ile push denemesi `Permission denied (publickey)` nedeniyle basarisiz oldu.
 - `origin` HTTPS'e cevrildi: `https://github.com/metedinler/ChlorellaOS.git`
 - Push basarili: `master -> origin/master`
+
+## 2026-02-23 EK NOT
+- Cift tab nedeni: `package.json (vite --open)` + `vite.config.js (open:true)` + `launcher Start-Process`.
+- Duzeltme: `package.json` scriptlerinden `--open` kaldirildi, `vite.config.js` icin `open:false` yapildi.
+- Son durum: tarayici acilisi sadece launcher uzerinden.

@@ -161,6 +161,28 @@ ilgilendigin projenin ic yapisini buraya yazacaksin.
 
 ---
 
+## 23 Subat 2026 - Cift Tab ve Tek Giris Duzeltmesi
+
+### Sorun
+- Her baslatmada 2 tarayici sekmesi aciliyordu.
+
+### Kok Neden
+- Ayni anda 3 ayri acilis kaynagi calisiyordu:
+   1) `package.json` -> `vite --open`
+   2) `vite.config.js` -> `server.open: true`
+   3) `ChlorellaOS_Launcher.ps1` -> `Start-Process http://localhost:3000`
+
+### Yapilan
+- `package.json` icinde `dev/start` scriptleri `vite` yapildi (`--open` kaldirildi).
+- `vite.config.js` icinde `open: false` yapildi.
+- Launcher tarafi tek tarayici acilis noktasi olarak birakildi.
+- Ek olarak launcher'da Windows `npm install` cagrisi `cmd /c` uzerinden duzeltildi.
+
+### Sonuc
+- Tek giris korunarak cift tab sorunu giderildi.
+
+---
+
 # İŞLEM LOGLARı
 
 ## 17 Şubat 2026 - GAP ANALİZİ TESLİMATı

@@ -20,3 +20,8 @@ Kural: Bu dosyada satir silinmez. Tamamlanan isler `bitti` olarak kapanir.
 ## 2026-02-22 DURUM GUNCELLEME-3
 - [bitti] GitHub remote baglandi (`origin`).
 - [bitti] Commitler GitHub'a push edildi (`master -> origin/master`).
+
+## 2026-02-23 CALISTIRMA SISTEMI GUNCELLEME
+- [bitti] Tek giris noktasi `start.bat -> ChlorellaOS_Launcher.ps1` olarak korundu.
+- [bitti] Cift tab sorunu giderildi (Vite auto-open kapatildi, acilis launcher'da tek kaynaga indirildi).
+- [bitti] Launcher `npm install` cagri yolu Windows uyumlu hale getirildi (`cmd /c npm ...`).
