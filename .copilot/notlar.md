@@ -31,3 +31,11 @@ Kural: Bu dosyada satir silinmez; sadece yeni not eklenir.
 - Kimyalab/Oksilab/Elektromarket/Trendyol/Letgo kalemleri eklenirken KDV dahil-dahil degil bilgisi kayit bazinda ayristirildi.
 - BBM/BS11 stok kayitlari `Besi Yeri Stok` kategorisinde veri katmanina eklendi.
 - Onceki AI KDV uyarisi dogrulandi: `RecommendationEngine` tarafinda maliyet hesabi KDV ile her zaman tutarli degil; sonraki fazda cost pipeline teklestirilmeli.
+
+## 2026-02-23 EK NOT-3
+- Gorunurluk kok nedeni dogrulandi: UI, `systemDataExtended.js` yerine once `localStorage/chlorellaMaterials` verisini kullaniyor.
+- Duzeltme: `MaterialsContext` icine otomatik birlestirme eklendi; kayitli veride eksik kalan 2026-02 kurumsal alimlari otomatik append ediyor.
+- Kullanici talebi dogrultusunda 2 yedek dosya isimleri korunarak guncellendi:
+	- `chlorella_materials_2026-02-22.json`
+	- `C:/Users/mete/Downloads/malzeme_yedek_2026-02-22T23-32-43.json`
+- BBM/BS11 kayitlari stok cozelti akisina uygun metadata ile guncellendi (`stockSolutionMode`, `mediumCode`, `compatibleMedia`).

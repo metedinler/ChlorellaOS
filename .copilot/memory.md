@@ -176,6 +176,12 @@ ilgilendigin projenin ic yapisini buraya yazacaksin.
 - KDV uyumsuzlugu notu gecerli: `RecommendationEngine` maliyet akisi ile `MaterialsContext` fatura/KDV modeli tam hizali degil.
 - Sonraki adim: tum maliyet hesaplarini tek helper uzerinden normalize etmek.
 
+### 23 Subat 2026 Ek Senkron Notu
+- Kullanici ekraninda yeni kimyasallar gorunmeme nedeni `localStorage` onceligi olarak teyit edildi.
+- `MaterialsContext` icinde `mergePurchasedDefaults` eklendi; kayitli listeye eksik 2026-02 kurumsal alimlari otomatik birlestiriyor.
+- `chlorella_materials_2026-02-22.json` ve `malzeme_yedek_2026-02-22T23-32-43.json` dosyalari isim degistirilmeden guncellendi.
+- BBM/BS11 stok cozelti kayitlari (`stockSolutionMode`, `mediumCode`, `compatibleMedia`) backup dosyalarina da yansitildi.
+
 ### GitHub Yedek Sonucu
 - `origin` once SSH ile baglandi, host key onaylandi.
 - SSH push yetkisi olmadigi icin HTTPS remote'a gecildi.

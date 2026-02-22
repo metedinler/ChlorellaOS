@@ -482,8 +482,8 @@ export const materialInventory = [
   { id: 155, category: 'Kimyasal', name: 'Aseton 5 Litre', quantity: 1, unit: 'adet', unitPrice: 330, totalCost: 330, date: '2026-02', usedInProduction: true, kdvRate: 20, kdvIncluded: true, source: 'trendyol-7' },
   { id: 156, category: 'Lab Ekipman', name: 'Mikroskop Yedek Parça Paketi (objektif, tabla, lamba, vidalar)', quantity: 1, unit: 'paket', unitPrice: 2000, totalCost: 2000, date: '2026-02', usedInProduction: true, source: 'letgo-8' },
 
-  { id: 157, category: 'Besi Yeri Stok', name: 'BBM Stok Çözelti Seti', quantity: 1, unit: 'set', unitPrice: 0, totalCost: 0, date: '2026-02', usedInProduction: true, source: 'internal-stock', note: 'BBM reçetesi mediumLibrary üzerinden kimyasal tüketimi ile maliyetlenir' },
-  { id: 158, category: 'Besi Yeri Stok', name: 'BS11 Stok Çözelti Seti', quantity: 1, unit: 'set', unitPrice: 0, totalCost: 0, date: '2026-02', usedInProduction: true, source: 'internal-stock', note: 'BS11 reçetesi mediumLibrary üzerinden kimyasal tüketimi ile maliyetlenir' }
+  { id: 157, category: 'Besi Yeri Stok', name: 'BBM Stok Çözelti Seti', quantity: 1, unit: 'set', unitPrice: 0, totalCost: 0, date: '2026-02', usedInProduction: true, source: 'internal-stock', stockSolutionMode: true, mediumCode: 'BBM', compatibleMedia: ['BBM'], note: 'BBM stok çözelti sistemi ile besi yeri oluşturma akışına bağlıdır' },
+  { id: 158, category: 'Besi Yeri Stok', name: 'BS11 Stok Çözelti Seti', quantity: 1, unit: 'set', unitPrice: 0, totalCost: 0, date: '2026-02', usedInProduction: true, source: 'internal-stock', stockSolutionMode: true, mediumCode: 'BS11', compatibleMedia: ['BS11'], note: 'BS11 stok çözelti sistemi ile besi yeri oluşturma akışına bağlıdır' }
 ];
 
 // Toplam maliyet hesaplama
