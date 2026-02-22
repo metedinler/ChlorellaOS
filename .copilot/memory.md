@@ -140,6 +140,11 @@ ilgilendigin projenin ic yapisini buraya yazacaksin.
 - Belgeler append-only mantikla calisacak sekilde standardize edildi.
 - Bir sonraki oturumlarda baglam kopmasini azaltacak temel kayit altyapisi kuruldu.
 
+### Git Yedek Kaydi
+- Yerel repo olusturuldu (`git init`).
+- Ilk adim commit hash: `0be2092`.
+- Durum: GitHub push beklemede (remote tanimi yok).
+
 ---
 
 # İŞLEM LOGLARı
