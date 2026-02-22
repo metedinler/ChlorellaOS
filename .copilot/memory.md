@@ -154,6 +154,11 @@ ilgilendigin projenin ic yapisini buraya yazacaksin.
 - `35dea82` -> durum loglari
 - `82c8780` -> pck aktif src envanteri
 
+### GitHub Yedek Sonucu
+- `origin` once SSH ile baglandi, host key onaylandi.
+- SSH push yetkisi olmadigi icin HTTPS remote'a gecildi.
+- Basarili push: `master` dali `origin/master` olarak olustu ve takip acildi.
+
 ---
 
 # İŞLEM LOGLARı

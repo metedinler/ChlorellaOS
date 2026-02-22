@@ -14,3 +14,8 @@ Kural: Bu dosyada satir silinmez; sadece yeni not eklenir.
 ## 2026-02-22 EK NOT-2
 - Durum/log commit alindi: `35dea82`.
 - PCK envanter commit alindi: `82c8780`.
+
+## 2026-02-22 EK NOT-3
+- SSH ile push denemesi `Permission denied (publickey)` nedeniyle basarisiz oldu.
+- `origin` HTTPS'e cevrildi: `https://github.com/metedinler/ChlorellaOS.git`
+- Push basarili: `master -> origin/master`

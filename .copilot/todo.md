@@ -16,3 +16,7 @@ Kural: Bu dosyada satir silinmez. Tamamlanan isler `bitti` olarak kapanir.
 ## 2026-02-22 DURUM GUNCELLEME-2
 - [bitti] `pck.md` icine aktif `src` modullerinin sinif/fonksiyon envanteri eklendi.
 - [devam] Kalan adim: GitHub remote bagla ve push.
+
+## 2026-02-22 DURUM GUNCELLEME-3
+- [bitti] GitHub remote baglandi (`origin`).
+- [bitti] Commitler GitHub'a push edildi (`master -> origin/master`).
