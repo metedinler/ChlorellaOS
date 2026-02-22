@@ -10,3 +10,7 @@ Kural: Bu dosyada satir silinmez; sadece yeni not eklenir.
 ## 2026-02-22 EK NOT
 - Yerel git deposu baslatildi ve ilk commit alindi: `0be2092`.
 - GitHub'a gonderim adimi icin remote henüz tanimli degil.
+
+## 2026-02-22 EK NOT-2
+- Durum/log commit alindi: `35dea82`.
+- PCK envanter commit alindi: `82c8780`.

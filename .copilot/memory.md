@@ -150,6 +150,10 @@ ilgilendigin projenin ic yapisini buraya yazacaksin.
 - Managers, Worker, Models, Data, Utils ve Contexts icin sinif/fonksiyon seviyesinde temel katalog eklendi.
 - Yontem: sadece aktif `src` dosyalari referans alindi.
 
+### Commit Izleri
+- `35dea82` -> durum loglari
+- `82c8780` -> pck aktif src envanteri
+
 ---
 
 # İŞLEM LOGLARı
