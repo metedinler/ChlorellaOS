@@ -145,6 +145,11 @@ ilgilendigin projenin ic yapisini buraya yazacaksin.
 - Ilk adim commit hash: `0be2092`.
 - Durum: GitHub push beklemede (remote tanimi yok).
 
+### PCK Gelisimi
+- `pck.md` dosyasina aktif `src` envanteri append edildi.
+- Managers, Worker, Models, Data, Utils ve Contexts icin sinif/fonksiyon seviyesinde temel katalog eklendi.
+- Yontem: sadece aktif `src` dosyalari referans alindi.
+
 ---
 
 # İŞLEM LOGLARı

@@ -62,3 +62,75 @@ Kural: Append-only. Satir silinmez, yalnizca yeni kayit eklenir.
 ### 6) Bu oturum degisikligi
 - Degisiklik: Copilot iletisim katmani dosyalari olusturuldu (`ai_referansbelge.md`, `todo.md`, `notlar.md`, `pck.md`).
 - Etki: gelistirme sureci ve bilgi devri icin izlenebilir altyapi kuruldu.
+
+---
+
+## 2026-02-22 Aktif Kod Envanteri (src)
+
+### Managers
+- Dosya: `src/managers/ModelManager.js`
+  - Sinif: `ModelManager`
+  - Metotlar (ornek): `setupEventListeners`, `registerTank`, `calculateNutrientsFromFormulation`
+  - Amac: tank kaydi, besin/stokiyometri entegrasyonu, model state yonetimi
+- Dosya: `src/managers/LearningEngine.js`
+  - Sinif: `LearningEngine`
+  - Metotlar (ornek): `updateGrowthParameters`, `updateRiskWeights`, `calculateParameterConfidence`, `performKFoldCrossValidation`
+  - Amac: gercek veri ile parametre ogrenmesi ve model dogrulama
+- Dosya: `src/managers/RecommendationEngine.js`
+  - Sinif: `RecommendationEngine`
+  - Metotlar (ornek): `initializeStocks`, `getStocks`, `getStock`
+  - Amac: kimyasal mudahale, stok ve maliyet odakli oneriler
+
+### Worker
+- Dosya: `src/workers/SimulationWorker.js`
+  - Sinif: `SimulationWorker`
+  - Fonksiyon: `setToastFunction`
+  - Metotlar (ornek): `start`, `stop`, `runHourlySimulation`, `evaluateRisks`
+  - Amac: arka plan simulasyon ve risk alarm dongusu
+
+### Models
+- Dosya: `src/models/riskModel.js`
+  - Siniflar: `RiskModel`, `CRIModel`
+  - Amac: risk skorlamasi ve birlesik risk endeksi
+- Dosya: `src/models/waterChemistry.js`
+  - Sinif: `WaterChemistry`
+  - Amac: su kimyasi denge/reaksiyon hesaplari
+- Dosya: `src/models/nutrientChemistry.js`
+  - Sinif: `NutrientChemistry`
+  - Amac: besin elementi donusumleri
+- Dosya: `src/models/lightModel.js`
+  - Sinif: `LightModel`
+  - Amac: isik etkisi modelleme
+- Dosya: `src/models/gasTransferModel.js`
+  - Sinif: `GasTransferModel`
+  - Amac: gaz transferi dinamikleri
+- Dosya: `src/models/learningEngine.js`
+  - Sinif: `LearningEngine`
+  - Amac: model katmaninda ogrenme yardimcilari
+- Dosya: `src/models/odeSolver.js`
+  - Fonksiyonlar: `rk4`, `rkf45`, `euler`
+  - Amac: diferansiyel denklem cozuculeri
+
+### Data
+- Dosya: `src/data/chemicalDatabase.js`
+  - Fonksiyonlar: `calculateElementalComposition`, `calculateRecipeComposition`, `analyzeNPRatio`
+- Dosya: `src/data/mediaDatabase.js`
+  - Fonksiyonlar: `getMediaByCategory`, `findSuitableMedia`, `searchMedia`, `getMediaWithStoichiometry`
+- Dosya: `src/data/expandedChemicalDatabase.js`
+  - Fonksiyonlar: `getAlphabeticalChemicalList`, `getChemicalsByCategory`, `searchChemicals`
+
+### Utils
+- Dosya: `src/utils/stoichiometryEngine.js`
+  - Fonksiyonlar: `calculateResidue`, `calculateScaleUpNutrients`, `compareMedia`, `absorbanceToConcentration`, `calculatePhosphate`, `calculateNitrogen`, `detectPHCrisis`, `calculateRescueFeed`
+  - Amac: stokiyometri + analiz + kurtarma beslemesi hesaplari
+- Dosya: `src/utils/interventionManager.js`
+  - Fonksiyonlar: `getAllInterventions`, `getInterventionsByTank`, `getInterventionsByDateRange`, `addIntervention`, `updateIntervention`, `deleteIntervention`, `getFedbatchInterventions`, `getInterventionStats`, `exportInterventions`, `importInterventions`
+  - Amac: mudahale kayitlari ve aktarim islemleri
+
+### Contexts
+- Dosya: `src/contexts/EnforcedChlorellaSystemContext.jsx`
+  - Amac: zorlanmis tekil sistem state yonetimi
+- Dosya: `src/contexts/MaterialsContext.jsx`
+  - Amac: malzeme, alisveris, stok hareketleri
+- Dosya: `src/contexts/ChlorellaSystemContext.jsx`
+  - Amac: eski context yapisi (durum takibi icin korunuyor)

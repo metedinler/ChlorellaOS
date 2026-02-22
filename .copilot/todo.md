@@ -12,3 +12,7 @@ Kural: Bu dosyada satir silinmez. Tamamlanan isler `bitti` olarak kapanir.
 - [bitti] Okuma sirasi `.copilot/.promt.md` dosyasina eklendi.
 - [devam] GitHub push adimi bekliyor (uzak depo bilgisi gerekli olabilir).
 - [log] Yerel yedek commit: `0be2092`
+
+## 2026-02-22 DURUM GUNCELLEME-2
+- [bitti] `pck.md` icine aktif `src` modullerinin sinif/fonksiyon envanteri eklendi.
+- [devam] Kalan adim: GitHub remote bagla ve push.
