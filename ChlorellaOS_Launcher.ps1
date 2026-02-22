@@ -346,21 +346,12 @@ function Start-ChlorellaOS {
         Set-Location $script:Config.AppPath
         Write-Log "Çalışma dizini: $($script:Config.AppPath)" -Level DEBUG
         
-        # Arka planda PowerShell job başlat
-        $job = Start-Job -ScriptBlock {
-            param($appPath)
-            Set-Location $appPath
-            & cmd.exe /c "npm run dev"
-        } -ArgumentList $script:Config.AppPath
-        
-        # Job'ın PID'sini al (biraz bekle job başlasın)
-        Start-Sleep -Seconds 2
-        
-        # npm prosesini bul
-        $npmProcess = Get-Process | Where-Object {
-            $_.ProcessName -eq "node" -and 
-            $_.StartTime -gt (Get-Date).AddSeconds(-10)
-        } | Select-Object -First 1
+        # Arka planda bağımsız proses başlat (launcher kapanınca yaşamaya devam eder)
+        $npmProcess = Start-Process -FilePath "cmd.exe" `
+            -ArgumentList '/c', 'npm run dev' `
+            -WorkingDirectory $script:Config.AppPath `
+            -PassThru `
+            -WindowStyle Hidden
         
         if ($npmProcess) {
             New-LockFile -ProcessId $npmProcess.Id
@@ -400,9 +391,8 @@ function Start-ChlorellaOS {
             return $npmProcess
         }
         else {
-            Write-Log "npm prosesi bulunamadı, job başlatıldı (Job ID: $($job.Id))" -Level WARNING
-            # Job ID'yi kullan
-            return $job
+            Write-Log "npm prosesi başlatılamadı" -Level ERROR
+            return $null
         }
     }
     catch {
