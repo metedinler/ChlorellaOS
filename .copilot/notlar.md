@@ -39,3 +39,10 @@ Kural: Bu dosyada satir silinmez; sadece yeni not eklenir.
 	- `chlorella_materials_2026-02-22.json`
 	- `C:/Users/mete/Downloads/malzeme_yedek_2026-02-22T23-32-43.json`
 - BBM/BS11 kayitlari stok cozelti akisina uygun metadata ile guncellendi (`stockSolutionMode`, `mediumCode`, `compatibleMedia`).
+
+## 2026-02-23 EK NOT-4
+- `envanter.md` tablosu parse edilerek kimyasal/malzeme bazli `Ana Kullanim + Yan Kullanimlar + Yorum` alanlari `note` alanina eklendi.
+- Kural: kayitta mevcut `note` varsa sonuna `ENVANTER_BILGISI:` etiketiyle append edildi.
+- Guncellenen dosyalar:
+	- `chlorella_materials_2026-02-22.json`
+	- `C:/Users/mete/Downloads/malzeme_yedek_2026-02-22T23-32-43.json`

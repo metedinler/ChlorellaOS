@@ -154,7 +154,8 @@
     "date": "2025-12-11",
     "usedInProduction": true,
     "currentStock": 1,
-    "formula": "NaNO3"
+    "formula": "NaNO3",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot kaynağı - NO₃- formunda besin || Yan kullanımlar: Soğutma suyu inhibitör ü | Gübre (yan) | Gıda koruyucu (et) || Yorum: Standart nitrat kaynağı. Chlorella nitratı amonyuma tercih eder. Doz: 100-200 ppm N"
   },
   {
     "id": 13,
@@ -167,7 +168,7 @@
     "date": "2025-12-01",
     "usedInProduction": true,
     "currentStock": 0.1,
-    "note": "KH2PO4",
+    "note": "KH2PO4 | ENVANTER_BILGISI: Ana kullanım (Chlorella): Potasyum ve fosfor kaynağı - K+ ve PO₄³⁻ || Yan kullanımlar: Tampon (pH 4.5) | Maya besini | Yangın söndürücü || Yorum: Harika! MAP'in potasyuml u versiyonu . Chlorella için ideal P:K oranı",
     "formula": "MKP-Fertilizer"
   },
   {
@@ -207,7 +208,8 @@
     "date": "2025-12-01",
     "usedInProduction": true,
     "currentStock": 3,
-    "formula": "CaCl2·2H2O"
+    "formula": "CaCl2·2H2O",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Kalsiyum || Yan kullanımlar: Soğutma | Beton | Gübre || Yorum: Önemli!"
   },
   {
     "id": 17,
@@ -247,7 +249,8 @@
     "date": "2024-02",
     "usedInProduction": true,
     "currentStock": 0.2,
-    "formula": null
+    "formula": null,
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH || Yan kullanımlar: Antioksid | Gıda | İlaç || Yorum: Çok"
   },
   {
     "id": 20,
@@ -260,7 +263,8 @@
     "date": "2025-12-11",
     "usedInProduction": true,
     "currentStock": 5,
-    "formula": "Na2CO3"
+    "formula": "Na2CO3",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot || Yan kullanımlar: Soğutma | Gübre | Gıda || Yorum: Standart"
   },
   {
     "id": 21,
@@ -273,7 +277,7 @@
     "date": "2024-02",
     "usedInProduction": true,
     "currentStock": 1,
-    "note": "Kostik",
+    "note": "Kostik | ENVANTER_BILGISI: Ana kullanım (Chlorella): pH düzenleyi ci - Asidik suları nötralize etme || Yan kullanımlar: Tank/equi pment dezenfeks iyonu (yüksek pH) | Yağ giderme (sabunlaş ma) | Protein hidrolizi || Yorum: ⚠️ Yüksek risk! Kullanımı çok dikkatli olmalı. Chlorella için pH 6.5-7.5 ideal. Ani pH değişimle ri öldürücü olabilir",
     "formula": "NaOH"
   },
   {
@@ -287,7 +291,8 @@
     "date": "2025-12-18",
     "usedInProduction": true,
     "currentStock": 1,
-    "formula": null
+    "formula": null,
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH || Yan kullanımlar: Kireç | Metal | Hidrojen || Yorum: ⚠️ Güçlü"
   },
   {
     "id": 23,
@@ -313,7 +318,8 @@
     "date": "2025-12-12",
     "usedInProduction": true,
     "currentStock": 0.25,
-    "formula": "MnCl2·4H2O"
+    "formula": "MnCl2·4H2O",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro || Yan kullanımlar: Su | Boya | Tarımda || Yorum: Önemli!"
   },
   {
     "id": 25,
@@ -326,7 +332,8 @@
     "date": "2025-12-12",
     "usedInProduction": true,
     "currentStock": 0.1,
-    "formula": "ZnSO4·7H2O"
+    "formula": "ZnSO4·7H2O",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Tam besin || Yan kullanımlar: Yangın | Maya | Şarap || Yorum: Mükemmel"
   },
   {
     "id": 26,
@@ -339,7 +346,8 @@
     "date": "2025-12-12",
     "usedInProduction": true,
     "currentStock": 0.1,
-    "formula": "CuSO4·5H2O"
+    "formula": "CuSO4·5H2O",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro besin - Cu, plastosiy anin ve sitokrom oksidaz için || Yan kullanımlar: Algisit (kontroll ü) - bakteri kontrolü | Fungisit (tarım) | Elektroli t (banyo) || Yorum: ⚠️ Çift kenarlı kılıç! Mikro besin olarak 0.01-0.05 ppm gerekli, ama 0.1 ppm üzeri toksik. Kontamine su kaynaklar ında bakteri kontrolü için düşünüleb ilir"
   },
   {
     "id": 27,
@@ -883,7 +891,8 @@
     "date": "2025-12-01",
     "usedInProduction": true,
     "currentStock": 1,
-    "formula": "KNO3"
+    "formula": "KNO3",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot ve potasyum kaynağı - NO₃- ve K+ besini || Yan kullanımlar: Oksidasyo n maddesi | Gübre (NPK) | Gıda koruyucu (et) || Yorum: Mükemmel! Chlorella için ideal K kaynağı. Nitrat tercih edilen N formu. Doz: 100 ppm N, 50 ppm K"
   },
   {
     "id": 73,
@@ -1076,7 +1085,7 @@
     "date": "2026-01-01",
     "usedInProduction": true,
     "currentStock": 0.2,
-    "note": "Sodyum bi karbonat",
+    "note": "Sodyum bi karbonat | ENVANTER_BILGISI: Ana kullanım (Chlorella): pH tamponu ve karbon kaynağı - CO₂/HCO₃⁻ dengesi || Yan kullanımlar: Alkalinit e artırıcı | Gıda kabartma tozu | Antasit (ilaç) || Yorum: Harika! Chlorella için en iyi karbon kaynaklar ından biri. pH 8.1-8.3 tamponu. Doz: 1-2 g/L",
     "id": 1767286537244,
     "totalCost": 260,
     "formula": "NaHCO3"
@@ -1552,7 +1561,7 @@
     "date": "2026-01-01",
     "usedInProduction": true,
     "currentStock": 0.1,
-    "note": "",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Dezenfeks iyon - Tank/equi pment steriliza syonu (şok tedavisi) || Yan kullanımlar: Biyofilm kontrolü (sistem boruların da) | Su steriliza syonu (organik madde oksidasyo nu) | Kök hücre/kon taminasyo n tedavisi (çok düşük doz) || Yorum: Yeni alternati f! 1. listedeki sodyum hipoklori t (HYPO) yerine veya yanında kullanıla bilir. Avantajı: Kalıntı su ve oksijene parçalanı r (toksik kalıntı yok). Dezavanta jı: Yüksek dozda chlorella 'ya da zararlı",
     "id": 1767291466405,
     "totalCost": 140,
     "formula": "H2O2"
@@ -1608,7 +1617,7 @@
     "date": "2025-12-01",
     "usedInProduction": true,
     "currentStock": 1,
-    "note": "",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH artırıcı - K+ kaynağı ile birlikte || Yan kullanımlar: Yağ sabunlaşt ırma | Biyodizel üretimi | Elektroli t || Yorum: NaOH alternati fi. Potasyum da besin olduğu için tercih edilebili r. Dikkatli kullanım şart",
     "id": 1767292284491,
     "totalCost": 221,
     "formula": "KOH"
@@ -1916,7 +1925,7 @@
     "date": "2025-12-10",
     "usedInProduction": true,
     "currentStock": 0.25,
-    "note": "Sadece alginat kurecik yapmayi denemek icin",
+    "note": "Sadece alginat kurecik yapmayi denemek icin | ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot || Yan kullanımlar: Soğutma | Gübre | Gıda || Yorum: Standart",
     "id": 1767300780714,
     "totalCost": 582,
     "formula": "Sodium-Alginate-Food"
@@ -2002,7 +2011,7 @@
     "usedInProduction": true,
     "currentStock": 0.1,
     "minStock": 0.01,
-    "note": "",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro || Yan kullanımlar: Su | pH | Metal || Yorum: Çok",
     "id": 1770942643981,
     "totalCost": 863
   },
@@ -2015,7 +2024,7 @@
     "date": "2026-02-13",
     "usedInProduction": true,
     "currentStock": 1,
-    "note": "Boncuk Kostik",
+    "note": "Boncuk Kostik | ENVANTER_BILGISI: Ana kullanım (Chlorella): pH düzenleyi ci - Asidik suları nötralize etme || Yan kullanımlar: Tank/equi pment dezenfeks iyonu (yüksek pH) | Yağ giderme (sabunlaş ma) | Protein hidrolizi || Yorum: ⚠️ Yüksek risk! Kullanımı çok dikkatli olmalı. Chlorella için pH 6.5-7.5 ideal. Ani pH değişimle ri öldürücü olabilir",
     "minStock": 0.1,
     "formula": "NaOH",
     "id": 1770943091407,
@@ -2032,7 +2041,7 @@
     "usedInProduction": true,
     "currentStock": 1,
     "minStock": 0.1,
-    "note": "",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro besin - Mn, fotosente zde su fotolizi için Z-komplek sinde || Yan kullanımlar: Su analizind e çöktürücü | Boya endüstris i (yan) | Tarımda gübre || Yorum: Önemli! Mn eksikliği fotosente zi durdurur. Doz: 0.05-0.5 ppm",
     "id": 1770943187645,
     "totalCost": 123.58
   },
@@ -2047,7 +2056,7 @@
     "usedInProduction": true,
     "currentStock": 0.25,
     "minStock": 0,
-    "note": "(Ascorbic Acid) (Vitamin C) (E 300)",
+    "note": "(Ascorbic Acid) (Vitamin C) (E 300) | ENVANTER_BILGISI: Ana kullanım (Chlorella): Antioksid an - Oksidatif stres azaltma, hasat sonrası koruma || Yan kullanımlar: Su deklorina syonu (klor nötraliza syonu) | pH düşürücü (zayıf asit) | Besin çözeltisi stabilize edici || Yorum: İyi seçim! Hasat sonrası enzimatik kararma önlemede etkili. Canlı kültürde antioksid an kapasite artırıcı",
     "id": 1770943356436,
     "totalCost": 155.27
   },
@@ -2062,7 +2071,7 @@
     "usedInProduction": true,
     "currentStock": 0.5,
     "minStock": 0,
-    "note": "",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot kaynağı - NO₃- formunda besin || Yan kullanımlar: Soğutma suyu inhibitör ü | Gübre (yan) | Gıda koruyucu (et) || Yorum: Standart nitrat kaynağı. Chlorella nitratı amonyuma tercih eder. Doz: 100-200 ppm N",
     "id": 1770943448922,
     "totalCost": 67.07
   },
@@ -2077,7 +2086,7 @@
     "usedInProduction": true,
     "currentStock": 0.1,
     "minStock": 0,
-    "note": "2-Hydroxybenzoic acid yada Beta Hidroksi Asit (BHA) olarakda bilinir. pH (1% solüsyon): 2.4–3.0 Suda az, alkoller ve glikol türevlerinde yüksek çözünür. Doğrudan temel makro besin sağlamaz. C (karbon içerir) ancak Chlorella için temel karbon kaynağı olarak kullanılmaz. Düşük dozlarda stres düzenleyici / büyüme modülatörü olarak çalışabilir. besin değil, biyostimülan / stres sinyal molekülüdur.",
+    "note": "2-Hydroxybenzoic acid yada Beta Hidroksi Asit (BHA) olarakda bilinir. pH (1% solüsyon): 2.4–3.0 Suda az, alkoller ve glikol türevlerinde yüksek çözünür. Doğrudan temel makro besin sağlamaz. C (karbon içerir) ancak Chlorella için temel karbon kaynağı olarak kullanılmaz. Düşük dozlarda stres düzenleyici / büyüme modülatörü olarak çalışabilir. besin değil, biyostimülan / stres sinyal molekülüdur. | ENVANTER_BILGISI: Ana kullanım (Chlorella): Fitohormo n - Sistemik kazanılmı ş direnç (SAR) indüksiyo nu || Yan kullanımlar: Antimikro biyal koruma | Keratolit ik (cilt) | Ağrı kesici hammaddes i || Yorum: İlginç seçim! Abiyotik stres toleransı nı artırabil ir (kuraklık , tuz). Literatür de yeni uygulama alanı",
     "id": 1770944936125,
     "totalCost": 1.1724
   },
@@ -2090,7 +2099,7 @@
     "date": "2026-02-13",
     "usedInProduction": true,
     "currentStock": 1,
-    "note": "",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot || Yan kullanımlar: Soğutma | Gübre | Gıda || Yorum: Standart",
     "formula": "Sodium-Thiosulfate",
     "id": 1770945342118,
     "totalCost": 100.33
@@ -2106,7 +2115,7 @@
     "usedInProduction": true,
     "currentStock": 0.5,
     "minStock": 0,
-    "note": "Azot, fosfor veya potasyum kaynağı değildir.  Mikro element değildir.  Tampon değildir.  Karbon kaynağı değildir.  Güçlü bir oksitleyici ajandır.  Hücresel strese ve oksidatif hasara neden olabilir.  Alg kültürlerinde genellikle dezenfeksiyon veya oksidatif stres çalışmaları için kullanılır.  Normal büyüme ortamında besin olarak kullanılmaz; yüksek dozlarda toksiktir.",
+    "note": "Azot, fosfor veya potasyum kaynağı değildir.  Mikro element değildir.  Tampon değildir.  Karbon kaynağı değildir.  Güçlü bir oksitleyici ajandır.  Hücresel strese ve oksidatif hasara neden olabilir.  Alg kültürlerinde genellikle dezenfeksiyon veya oksidatif stres çalışmaları için kullanılır.  Normal büyüme ortamında besin olarak kullanılmaz; yüksek dozlarda toksiktir. | ENVANTER_BILGISI: Ana kullanım (Chlorella): Güçlü oksidan - Sistem şok dezenfeks iyonu || Yan kullanımlar: Organik kir çözme | Metal yüzey temizliği | PCB imalatı || Yorum: ⚠️ Riskli! Chlorella 'ya doğrudan temas etmemeli. Sadece boş tank temizliği için. Kalıntıla rı tamamen arındırıl malı",
     "id": 1770945623473,
     "totalCost": 140.5
   },
@@ -2121,7 +2130,7 @@
     "usedInProduction": true,
     "currentStock": 1,
     "minStock": 0,
-    "note": "İçerdiği NH₄⁺ azot kaynağıdır, ancak:  Persülfat iyonu (S₂O₈²⁻) güçlü bir oksitleyicidir ve hücrelere zarar verebilir.  Bu nedenle pratikte azot kaynağı olarak kullanılmaz.  Kültür ortamında oksidatif stres oluşturur ve yüksek dozda toksiktir.  Daha çok polimerizasyon başlatıcı veya oksidatif stres deneylerinde kullanılır.  🔬 Sonuç: Teorik olarak azot içerir, fakat Chlorella yetiştiriciliğinde besin olarak uygun değildir",
+    "note": "İçerdiği NH₄⁺ azot kaynağıdır, ancak:  Persülfat iyonu (S₂O₈²⁻) güçlü bir oksitleyicidir ve hücrelere zarar verebilir.  Bu nedenle pratikte azot kaynağı olarak kullanılmaz.  Kültür ortamında oksidatif stres oluşturur ve yüksek dozda toksiktir.  Daha çok polimerizasyon başlatıcı veya oksidatif stres deneylerinde kullanılır.  🔬 Sonuç: Teorik olarak azot içerir, fakat Chlorella yetiştiriciliğinde besin olarak uygun değildir | ENVANTER_BILGISI: Ana kullanım (Chlorella): Güçlü oksidan - Dezenfeks iyon (sodyum tuzu alternati fi) || Yan kullanımlar: Amonyum kaynağı (N besini) - riskli | PCB temizliği | Polimeriz asyon başlatıcı sı || Yorum: ⚠️ Çok riskli! Amonyum ve güçlü oksidan kombinasy onu. Chlorella için toksik. Sadece ekipman temizliği",
     "id": 1770946074755,
     "totalCost": 176.38
   },
@@ -2134,7 +2143,7 @@
     "date": "2026-02-13",
     "usedInProduction": true,
     "currentStock": 1,
-    "note": "",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot ve kükürt kaynağı - NH₄+ ve SO₄²⁻ besini || Yan kullanımlar: pH düşürücü (asidifik asyon) | Maya besiyeri | Su arıtma flokülasy onu || Yorum: Klasik besin! Ancak amonyum toksisite sine dikkat. pH >7.5'te NH₃ formu toksik. Doz: 50-100 ppm N",
     "minStock": 0.1,
     "formula": "(NH4)2SO4",
     "id": 1770946594663,
@@ -2151,7 +2160,7 @@
     "usedInProduction": true,
     "currentStock": 1,
     "minStock": 0.1,
-    "note": "map",
+    "note": "map | ENVANTER_BILGISI: Ana kullanım (Chlorella): Tam besin - N ve P kaynağı, pH tamponu || Yan kullanımlar: Yangın söndürücü toz | Maya besiyeri | Şarap mayası besini || Yorum: Mükemmel seçim! Chlorella için ideal N:P oranı (1:0.3-0. 5). pH 4-4.5 arasında tampon",
     "id": 1770946731408,
     "totalCost": 307.38
   },
@@ -2166,7 +2175,7 @@
     "usedInProduction": true,
     "currentStock": 1,
     "minStock": 0.1,
-    "note": "DiSodyum Fosfat olarak satin alindi",
+    "note": "DiSodyum Fosfat olarak satin alindi | ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot || Yan kullanımlar: Soğutma | Gübre | Gıda || Yorum: Standart",
     "id": 1770947007081,
     "totalCost": 196.98
   },
@@ -2181,7 +2190,7 @@
     "usedInProduction": true,
     "currentStock": 1,
     "minStock": 0.1,
-    "note": "tampon, fosfor kaynağı, pH düzenleyici. Chlorella / mikroalg kültürü için:  Fosfor kaynağı + pH tamponlama (≈6–7)  Azot içermediği için ayrı N kaynağı şart (ör. NaNO₃)",
+    "note": "tampon, fosfor kaynağı, pH düzenleyici. Chlorella / mikroalg kültürü için:  Fosfor kaynağı + pH tamponlama (≈6–7)  Azot içermediği için ayrı N kaynağı şart (ör. NaNO₃) | ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot kaynağı - NO₃- formunda besin || Yan kullanımlar: Soğutma suyu inhibitör ü | Gübre (yan) | Gıda koruyucu (et) || Yorum: Standart nitrat kaynağı. Chlorella nitratı amonyuma tercih eder. Doz: 100-200 ppm N",
     "id": 1770947700818,
     "totalCost": 260.89
   },
@@ -2200,7 +2209,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 726.01,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro besin - Molibden kofaktörü , nitrat redüktaz enzimi için kritik || Yan kullanımlar: Su analizind e fosfor tayini (mavi metod) | pH tamponu olarak zayıf kullanım | Metal pasivasyo nu || Yorum: Çok kritik! Nitrat asimilasy onu için olmazsa olmaz. Doz: 0.1-0.5 ppm Mo"
   },
   {
     "id": 75,
@@ -2217,7 +2227,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 199.65,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH düzenleyi ci - Asidik suları nötralize etme || Yan kullanımlar: Tank/equi pment dezenfeks iyonu (yüksek pH) | Yağ giderme (sabunlaş ma) | Protein hidrolizi || Yorum: ⚠️ Yüksek risk! Kullanımı çok dikkatli olmalı. Chlorella için pH 6.5-7.5 ideal. Ani pH değişimle ri öldürücü olabilir"
   },
   {
     "id": 76,
@@ -2234,7 +2245,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 90.75,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro besin - Mn, fotosente zde su fotolizi için Z-komplek sinde || Yan kullanımlar: Su analizind e çöktürücü | Boya endüstris i (yan) | Tarımda gübre || Yorum: Önemli! Mn eksikliği fotosente zi durdurur. Doz: 0.05-0.5 ppm"
   },
   {
     "id": 77,
@@ -2251,7 +2263,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 117.98,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Antioksid || Yan kullanımlar: Su | pH | Besin || Yorum: İyi"
   },
   {
     "id": 78,
@@ -2268,7 +2281,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 99.83,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot kaynağı - NO₃- formunda besin || Yan kullanımlar: Soğutma suyu inhibitör ü | Gübre (yan) | Gıda koruyucu (et) || Yorum: Standart nitrat kaynağı. Chlorella nitratı amonyuma tercih eder. Doz: 100-200 ppm N"
   },
   {
     "id": 79,
@@ -2285,7 +2299,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 85.31,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Fitohormo n - Sistemik kazanılmı ş direnç (SAR) indüksiyo nu || Yan kullanımlar: Antimikro biyal koruma | Keratolit ik (cilt) | Ağrı kesici hammaddes i || Yorum: İlginç seçim! Abiyotik stres toleransı nı artırabil ir (kuraklık , tuz). Literatür de yeni uygulama alanı"
   },
   {
     "id": 80,
@@ -2302,7 +2317,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 70.79,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot || Yan kullanımlar: Soğutma | Gübre | Gıda || Yorum: Standart"
   },
   {
     "id": 81,
@@ -2319,7 +2335,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 105.27,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Güçlü oksidan - Sistem şok dezenfeks iyonu || Yan kullanımlar: Organik kir çözme | Metal yüzey temizliği | PCB imalatı || Yorum: ⚠️ Riskli! Chlorella 'ya doğrudan temas etmemeli. Sadece boş tank temizliği için. Kalıntıla rı tamamen arındırıl malı"
   },
   {
     "id": 82,
@@ -2336,7 +2353,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 136.13,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Güçlü oksidan - Dezenfeks iyon (sodyum tuzu alternati fi) || Yan kullanımlar: Amonyum kaynağı (N besini) - riskli | PCB temizliği | Polimeriz asyon başlatıcı sı || Yorum: ⚠️ Çok riskli! Amonyum ve güçlü oksidan kombinasy onu. Chlorella için toksik. Sadece ekipman temizliği"
   },
   {
     "id": 83,
@@ -2353,7 +2371,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 50.82,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot ve kükürt kaynağı - NH₄+ ve SO₄²⁻ besini || Yan kullanımlar: pH düşürücü (asidifik asyon) | Maya besiyeri | Su arıtma flokülasy onu || Yorum: Klasik besin! Ancak amonyum toksisite sine dikkat. pH >7.5'te NH₃ formu toksik. Doz: 50-100 ppm N"
   },
   {
     "id": 84,
@@ -2370,7 +2389,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 248.66,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Tam besin - N ve P kaynağı, pH tamponu || Yan kullanımlar: Yangın söndürücü toz | Maya besiyeri | Şarap mayası besini || Yorum: Mükemmel seçim! Chlorella için ideal N:P oranı (1:0.3-0. 5). pH 4-4.5 arasında tampon"
   },
   {
     "id": 85,
@@ -2387,7 +2407,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 154.28,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH tamponu - Fosfat sistemi (pH 6.8-8.0) || Yan kullanımlar: P kaynağı | Emülgatör (gıda) | Su yumuşatıc ı || Yorum: İyi tampon! Chlorella besiyerin de pH stabiliza syonu için. MSP ile birlikte kullanıla bilir"
   },
   {
     "id": 86,
@@ -2404,7 +2425,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 208.73,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot || Yan kullanımlar: Soğutma | Gübre | Gıda || Yorum: Standart"
   },
   {
     "id": 87,
@@ -2421,7 +2443,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 127.05,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Oksijen giderici - Anoksik ortam oluşturma || Yan kullanımlar: Dezenfekt an nötraliza syonu | Gıda koruyucu (antimikr obiyal) | Fotoğrafç ılık || Yorum: ⚠️ Dikkat! Chlorella oksijen üretir, çelişkili kullanım. Sadece su hazırlama aşamasınd a oksijen giderme için"
   },
   {
     "id": 88,
@@ -2438,7 +2461,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 125.24,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Nitrosomo nas inhibitör ü - Amonyum oksidasyo nunu bloke etme (kontroll ü) || Yan kullanımlar: Korozyon inhibitör ü | Gıda boyası (sucuk) | Tıbbi (kalp ilacı) || Yorum: ⚠️ Tehlikeli ! Nitrit chlorella için toksik. Sadece biyofilm kontrolün de çok düşük dozda düşünüleb ilir. Önerilmez"
   },
   {
     "id": 89,
@@ -2455,7 +2479,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 50.82,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot || Yan kullanımlar: Soğutma | Gübre | Gıda || Yorum: Standart"
   },
   {
     "id": 90,
@@ -2472,7 +2497,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 54.45,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH düşürücü - Asidifika syon || Yan kullanımlar: Su yumuşatma (kalsiyum çöktürme) | Metal temizliği | Gıda temizliği || Yorum: Bikarbona t ile birlikte pH kontrolü için kullanıla bilir. Güçlü asit, dikkatli dozaj"
   },
   {
     "id": 91,
@@ -2489,7 +2515,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 306.74,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Dezenfekt an - Tank ve sistem steriliza syonu || Yan kullanımlar: Su dezenfeks iyonu | Beyazlatm a (tekstil) | Yüzme havuzu || Yorum: Standart! Chlorella üretimind e en yaygın dezenfekt an. Kullanım sonrası mutlaka tiyosülfa t ile nötralize edilmeli"
   },
   {
     "id": 92,
@@ -2506,7 +2533,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 686.07,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot ve potasyum kaynağı - NO₃- ve K+ besini || Yan kullanımlar: Oksidasyo n maddesi | Gübre (NPK) | Gıda koruyucu (et) || Yorum: Mükemmel! Chlorella için ideal K kaynağı. Nitrat tercih edilen N formu. Doz: 100 ppm N, 50 ppm K"
   },
   {
     "id": 93,
@@ -2523,7 +2551,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 144.84,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH düşürücü - Güçlü asidifika syon || Yan kullanımlar: Kireç çözme (tank temizliği ) | Metal yüzey hazırlama | Hidrojen üretimi || Yorum: ⚠️ Güçlü asit! Kostik ile birlikte CIP (Clean-In -Place) sistemler i için. Chlorella 'ya temas etmemeli"
   },
   {
     "id": 94,
@@ -2540,7 +2569,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 156.09,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Fitokimya sal - Fenolik bileşik, antioksid an || Yan kullanımlar: Aroma maddesi | Farmasöti k ara ürün | Parfüm || Yorum: Çok niş kullanım. Chlorella metaboliz masına etkisi belirsiz. Aroma transferi riski var"
   },
   {
     "id": 95,
@@ -2557,7 +2587,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 286.77,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro besin - Cu, plastosiy anin ve sitokrom oksidaz için || Yan kullanımlar: Algisit (kontroll ü) - bakteri kontrolü | Fungisit (tarım) | Elektroli t (banyo) || Yorum: ⚠️ Çift kenarlı kılıç! Mikro besin olarak 0.01-0.05 ppm gerekli, ama 0.1 ppm üzeri toksik. Kontamine su kaynaklar ında bakteri kontrolü için düşünüleb ilir"
   },
   {
     "id": 96,
@@ -2574,7 +2605,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 235.95,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH düşürücü - Organik asit, metal şelatörü || Yan kullanımlar: Antioksid an | Gıda asitliği | Şarapçılı k || Yorum: İyi! Organik asitler chlorella metaboliz masını destekley ebilir. Demir şelasyonu için de kullanıla bilir"
   },
   {
     "id": 97,
@@ -2591,7 +2623,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 188.76,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Tampon ve şelatör - pH stabiliza syonu, metal bağlayıcı || Yan kullanımlar: Antikoagü lan (kan) | Gıda koruyucu | Deterjan || Yorum: Faydalı! Demir ve diğer metalleri n biyoyarar lanımını artırır. pH 6-8 arası tampon"
   },
   {
     "id": 98,
@@ -2608,7 +2641,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 110.72,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH düşürücü ve şelatör - Güçlü metal kompleksl eyici || Yan kullanımlar: Antioksid an | Gıda asitliği | İlaç (ürik asit düşürücü) || Yorum: Çok yönlü! Demir şelasyonu için ideal. Chlorella demir tüketimin i artırır. pH 3-6 arası tampon"
   },
   {
     "id": 99,
@@ -2625,7 +2659,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 254.1,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH artırıcı - K+ kaynağı ile birlikte || Yan kullanımlar: Yağ sabunlaşt ırma | Biyodizel üretimi | Elektroli t || Yorum: NaOH alternati fi. Potasyum da besin olduğu için tercih edilebili r. Dikkatli kullanım şart"
   },
   {
     "id": 100,
@@ -2642,7 +2677,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 272.25,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Emülgatör || Yan kullanımlar: Deterjan | Kozmetik | İlaç || Yorum: Chlorella"
   },
   {
     "id": 101,
@@ -2659,7 +2695,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 127.05,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Potasyum ve kükürt kaynağı - K+ ve SO₄²⁻ besini || Yan kullanımlar: Gübre (sızma önleyici) | Cam sanayi | Tuz replasman ı || Yorum: İyi K kaynağı! Klor intoleran sı olan türlerde KCl alternati fi. Doz: 50-100 ppm K"
   },
   {
     "id": 102,
@@ -2676,7 +2713,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 226.88,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH artırıcı ve K kaynağı - Karbonat tamponu || Yan kullanımlar: Cam sanayi | Sabun üretimi | Gıda alkalini || Yorum: Bikarbona t alternati fi. Daha güçlü alkalin. pH >9 yapabilir , dikkatli kullanım"
   },
   {
     "id": 103,
@@ -2693,7 +2731,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 90.75,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Flokülasy on - Gelenekse l çöktürücü || Yan kullanımlar: Su arıtma | Deri tabaklama | Gıda (turşu) || Yorum: PAK alternati fi. Gelenekse l yöntem. Alüminyum toksisite si riski var, dozaj kritik"
   },
   {
     "id": 104,
@@ -2710,7 +2749,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 245.03,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Potasyum kaynağı - K+ besini, en ekonomik seçenek || Yan kullanımlar: Tuz replasman ı | Gübre | Tıbbi (potasyum replasman ı) || Yorum: En ekonomik K kaynağı! Ancak bazı chlorella türleri kloride hassas. Test edilmeli"
   },
   {
     "id": 105,
@@ -2727,7 +2767,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 214.17,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Potasyum ve fosfor kaynağı - K+ ve PO₄³⁻ || Yan kullanımlar: Tampon (pH 4.5) | Maya besini | Yangın söndürücü || Yorum: Harika! MAP'in potasyuml u versiyonu . Chlorella için ideal P:K oranı"
   },
   {
     "id": 106,
@@ -2744,7 +2785,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 94.38,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Kalsiyum ve azot kaynağı - Ca²⁺ ve NO₃⁻ || Yan kullanımlar: Soğutma suyu | Beton katkısı | Gübre || Yorum: Önemli! Hücre duvarı bütünlüğü için Ca gerekli. Nitrat bonus. Doz: 20-50 ppm Ca"
   },
   {
     "id": 107,
@@ -2761,7 +2803,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 90.75,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Kalsiyum || Yan kullanımlar: Soğutma | Beton | Gübre || Yorum: Önemli!"
   },
   {
     "id": 108,
@@ -2778,7 +2821,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 148.83,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Karbon kaynağı - Heterotro fik/ Mixotrofi k büyüme || Yan kullanımlar: Nemlendir ici | Gıda katkısı | Kozmetik || Yorum: Mixotrofi k yetiştiri cilik için! Chlorella vulgaris organik karbon kullanabi lir. Karanlık fermentas yon desteği"
   },
   {
     "id": 109,
@@ -2795,7 +2839,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 253.74,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH || Yan kullanımlar: Pasivasyo | Gübre | Gıda || Yorum: Güçlü pH"
   },
   {
     "id": 110,
@@ -2812,7 +2857,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 90.75,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Kalsiyum ve fosfor kaynağı - Ca²⁺ ve PO₄³⁻ || Yan kullanımlar: Gıda katkısı (anti-kak ing) | Hayvan yemi | Diş macunu || Yorum: Yavaş çözünür, uzun vadeli besin. Acil düzeltme için uygun değil"
   },
   {
     "id": 111,
@@ -2829,7 +2875,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 128.87,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot ve fosfor kaynağı - NH₄+ ve PO₄³⁻ || Yan kullanımlar: Yangın söndürücü | Maya besini | Şarap mayası || Yorum: MAP alternati fi. Daha yüksek N/P oranı. Amonyum toksisite si riski yüksek pH'da"
   },
   {
     "id": 112,
@@ -2846,7 +2893,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 123.42,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro besin - Zn, karbonik anhidraz ve alkol dehidroge naz için || Yan kullanımlar: Gıda katkısı | Hayvan yemi | Tekstil || Yorum: Kritik mikro besin! DNA/RNA sentezi için. Doz: 0.02-0.1 ppm. Toksisite eşiği düşük"
   },
   {
     "id": 113,
@@ -2863,7 +2911,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 132.5,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Antimikro biyal - Ricinolei k asit bakteri/f ungi inhibisyo nu || Yan kullanımlar: Emülgatör | Laksatif | Biyoyakıt || Yorum: ⚠️ Riskli! Yağlı asitler chlorella hücre duvarını etkileyeb ilir. Sadece kontamine su kaynaklar ında düşük doz"
   },
   {
     "id": 114,
@@ -2880,7 +2929,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 60.27,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Organik nitrogen kaynağı - Amino asitler || Yan kullanımlar: Köpük giderici | Gıda katkısı | Kozmetik || Yorum: Mixotrofi k büyüme desteği. Ancak kontamina syon riski yüksek. Steril filtratio n şart"
   },
   {
     "id": 115,
@@ -2897,7 +2947,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 199.65,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Flokülasy on yardımcıs ı - PAK/ŞAP ile sinerji || Yan kullanımlar: Antasit (ilaç) | Boya dolgu maddesi | Su arıtma || Yorum: Hasat flokülasy onunda sinerjik etki. Doğrudan chlorella 'ya etkisi yok"
   },
   {
     "id": 116,
@@ -2914,7 +2965,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 117.98,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro || Yan kullanımlar: Su | pH | Metal || Yorum: Çok"
   },
   {
     "id": 117,
@@ -2931,7 +2983,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 132.5,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH || Yan kullanımlar: Gıda | Sirke | Tekstil || Yorum: Organik"
   },
   {
     "id": 118,
@@ -2948,7 +3001,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 117.98,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Azot kaynağı - NH₄+ formunda || Yan kullanımlar: Pil üretimi | Lehim akısı | Metal işlemi || Yorum: Amonyum kaynağı. Klorür içerdiği için bazı türlerde toksik olabilir. KNO₃ tercih edilir"
   },
   {
     "id": 119,
@@ -2965,7 +3019,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 272.25,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro besin - Molibden kaynağı (Amonyum molibdat alternati fi) || Yan kullanımlar: Korozyon inhibitör ü | Pigment üretimi | Analitik reagent || Yorum: Amonyum molibdat ile aynı fonksiyon . Na+ tercih edilen form"
   },
   {
     "id": 120,
@@ -2982,7 +3037,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 172.43,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH düşürücü - Güçlü organik asit, klor stabiliza syonu || Yan kullanımlar: Temizlik maddesi | Kağıt beyazlatm a | Metal parlatma || Yorum: Güçlü asidifika syon. Kloramin oluşumunu önleyebil ir. Teknik kullanım"
   },
   {
     "id": 121,
@@ -2999,7 +3055,8 @@
     "useInvoiceMode": true,
     "invoiceTotal": 319.44,
     "shippingCost": 20.69,
-    "source": "kimyasaldepom-1"
+    "source": "kimyasaldepom-1",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Organik karbon kaynağı - Asetat, mixotrofi k büyüme || Yan kullanımlar: pH tamponu | Gıda koruyucu (E262) | Tekstil || Yorum: Mixotrofi k yetiştiri cilik için iyi! Chlorella asetat kullanabi lir. pH 4.5-5.5 tamponu"
   },
   {
     "id": 122,
@@ -3015,7 +3072,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 145.73,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Alkalinit || Yan kullanımlar: Karbonat/ | pH | Besiyeri || Yorum: Fotosente"
   },
   {
     "id": 123,
@@ -3031,7 +3089,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 180.76,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH İzleme || Yan kullanımlar: Fotosente | Su | Besiyeri || Yorum: Mükemmel"
   },
   {
     "id": 124,
@@ -3047,7 +3106,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 289.98,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH Metre || Yan kullanımlar: Elektrot | Su | Besiyeri || Yorum: Kritik!"
   },
   {
     "id": 125,
@@ -3063,7 +3123,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 80.55,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): TDS Metre Kalibrasy onu - Toplam çözünmüş katı ölçümü || Yan kullanımlar: Besin yükü takibi | Su kalitesi standardi zasyonu | Sensör kontrolü || Yorum: EC ile birlikte kullanılı r. Chlorella 'da TDS 500-2000 ppm arası optimal büyüme için ideal"
   },
   {
     "id": 126,
@@ -3079,7 +3140,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 80.55,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH Metre || Yan kullanımlar: Elektrot | Su | Besiyeri || Yorum: Kritik!"
   },
   {
     "id": 127,
@@ -3095,7 +3157,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 180.76,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): pH || Yan kullanımlar: Asit-nötr | Alkalimet | Tampon || Yorum: Besiyerin"
   },
   {
     "id": 128,
@@ -3111,7 +3174,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 120.83,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Su || Yan kullanımlar: Besiyerin | Yumuşatma | Metal || Yorum: Çok"
   },
   {
     "id": 129,
@@ -3127,7 +3191,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 143.33,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Canlı/Hay atlı Hücre Sayımı - Vital boyama (chlorell a canlılık testi) || Yan kullanımlar: Mikrobiya l kontamina syon tespiti (bakteril eri boyar) | Oksijen indikatör ü (redoks) | Fotosente z inhibitör ü testi || Yorum: Kritik analiz aracı! Chlorella hücreleri nin canlılığı nı mikroskop ta değerlend irmede kullanılı r. Canlı hücreler boyayı reddeder (beyaz), ölü hücreler mavi"
   },
   {
     "id": 130,
@@ -3143,7 +3208,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 165.68,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Hücre Sayımı - Hemositom etre boyama (total hücre sayımı) || Yan kullanımlar: Gram boyama (kontamin asyon analizi) | Hücre büyüklüğü analizi | Antisepti k (düşük doz) || Yorum: Standart sayım metodu! Thoma lamda veya Neubauer sayım haznesind e chlorella hücre konsantra syonu belirleme de kullanılı r"
   },
   {
     "id": 131,
@@ -3159,7 +3225,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 281.92,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Mikro || Yan kullanımlar: Su | Boya | Tarımda || Yorum: Önemli!"
   },
   {
     "id": 132,
@@ -3175,7 +3242,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 342.34,
-    "source": "kimyalab-2"
+    "source": "kimyalab-2",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Hücre Lizisi - Chlorella hücre duvarı kırma (protein/ lipid ekstraksi yonu) || Yan kullanımlar: Protein denatüras yonu | Yüzey aktif temizlik | Elektrofo rez (protein analizi) || Yorum: Hasat sonrası işleme! Chlorella hücre duvarı sağlamdır , SDS içerik (protein, lipid, pigment) ekstraksi yonunda kullanılı r. Canlı kültürde kullanılm az"
   },
   {
     "id": 133,
@@ -3367,7 +3435,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 248.48,
-    "source": "oksilab-4"
+    "source": "oksilab-4",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Dezenfeks iyon - Tank/equi pment steriliza syonu (şok tedavisi) || Yan kullanımlar: Biyofilm kontrolü (sistem boruların da) | Su steriliza syonu (organik madde oksidasyo nu) | Kök hücre/kon taminasyo n tedavisi (çok düşük doz) || Yorum: Yeni alternati f! 1. listedeki sodyum hipoklori t (HYPO) yerine veya yanında kullanıla bilir. Avantajı: Kalıntı su ve oksijene parçalanı r (toksik kalıntı yok). Dezavanta jı: Yüksek dozda chlorella 'ya da zararlı"
   },
   {
     "id": 145,
@@ -3383,7 +3452,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 562.6,
-    "source": "oksilab-4"
+    "source": "oksilab-4",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Laboratuv ar Analizi - Nitrat tayini (Kjeldahl metodu), pH ayarı (extreme dikkat) || Yan kullanımlar: Asit lavajı (kireç çözme) | Pil/yoğun luk ölçümü (hidromet re) | Dehidrasy on (su giderme) || Yorum: ⚠️ Tehlikeli ve spesifik! Chlorella üretimind e doğrudan kullanılm az. Sadece analiz laboratuv arı varsa gerekli. 5L çok fazla (yıllarca dayanır). Kaldırıla bilir"
   },
   {
     "id": 146,
@@ -3399,7 +3469,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 138.57,
-    "source": "oksilab-4"
+    "source": "oksilab-4",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Laboratuv ar Analizi - Metal iyon analizi (AAS/ICP için örnek hazırlama ) || Yan kullanımlar: Nitrat kaynağı (riskli, asidik) | pH düşürücü (güçlü) | Oksidan olarak temizlik || Yorum: ⚠️ Riskli! Nitrat besini olarak kullanıla bilir ama pH'ı çok düşürür. Sodyum nitrat veya potasyum nitrat (1. liste) çok daha güvenli. Analiz için gerekli değilse kaldırıla bilir"
   },
   {
     "id": 147,
@@ -3415,7 +3486,8 @@
     "kdvIncluded": false,
     "useInvoiceMode": true,
     "invoiceTotal": 613.66,
-    "source": "oksilab-4"
+    "source": "oksilab-4",
+    "note": "ENVANTER_BILGISI: Ana kullanım (Chlorella): Tampon ve Besin - Fosfor ve potasyum kaynağı (pH 8.5-9.0 tamponu) || Yan kullanımlar: DSP (1. liste) alternati fi (potasyum lu versiyon) | Yüksek pH tamponlam ası | Tekrar kristaliz asyon çalışmala rı || Yorum: 💰 Çok pahalı! \"Chem Pure\" analitik kalite. 1. listedeki MKP (213₺) veya DSP (154₺) ile aynı fonksiyon , 3-4 kat fiyat. Besin olarak kullanımı israf. Kaldırıla bilir"
   },
   {
     "id": 148,
