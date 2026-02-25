@@ -49,6 +49,9 @@ const CHLORELLA_STORAGE_KEYS = [
   'chlorellaHarvestBatches',
   'chlorellaIncidentLog',
   'chlorellaODCalibrationProfiles',
+  'chlorellaInterventionDictionary',
+  'chlorellaAnalyticalQCProfiles',
+  'chlorellaColdChainEvents',
   'spectroCalibrations'
 ];
 

@@ -28,6 +28,7 @@ import CustomFormulationManager from './components/CustomFormulationManager';
 import ChemicalDosageCalculator from './components/ChemicalDosageCalculator';
 import CellCountingV2 from './components/CellCountingV2';
 import FedBatchAssistant from './components/FedBatchAssistant';
+import { ensureDocumentDatabaseIntegration } from './utils/documentDatabaseIntegrator';
 
 function App() {
   const [activeTab, setActiveTab] = useState('monitoring-hub');
@@ -35,6 +36,13 @@ function App() {
   // 🔥 OTOM ATİK SİMÜLASYON BAŞLAT - 5 DAKİKA İNTERVAL
   useEffect(() => {
     console.log('🚀 ChlorellaOS başlatılıyor - SimulationWorker aktive ediliyor...');
+
+    try {
+      const integrationSummary = ensureDocumentDatabaseIntegration();
+      console.log('📚 Belge tabanlı DB entegrasyonu tamamlandı:', integrationSummary);
+    } catch (integrationError) {
+      console.warn('⚠️ Belge tabanlı DB entegrasyonu tamamlanamadı:', integrationError);
+    }
     
     // Simulation Worker'ı başlat (5 dakikada bir çalışacak)
     simulationWorker.start().catch(err => {

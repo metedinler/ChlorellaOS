@@ -7,7 +7,10 @@ export const KNOWLEDGE_DB_KEYS = {
   deliverySpecs: 'chlorellaDeliverySpecs',
   harvestBatches: 'chlorellaHarvestBatches',
   incidentLog: 'chlorellaIncidentLog',
-  odCalibrationProfiles: 'chlorellaODCalibrationProfiles'
+  odCalibrationProfiles: 'chlorellaODCalibrationProfiles',
+  interventionDictionary: 'chlorellaInterventionDictionary',
+  analyticalQcProfiles: 'chlorellaAnalyticalQCProfiles',
+  coldChainEvents: 'chlorellaColdChainEvents'
 };
 
 export const LEARNING_TOPIC_SEEDS = [

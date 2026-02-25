@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Activity, Droplet, Thermometer, Beaker, Plus, TrendingUp, Syringe, FlaskConical } from 'lucide-react';
 import { addIntervention, getInterventionsByTank } from '../utils/interventionManager';
 import { getChemicalDisplayName } from '../utils/chemicalNames';
@@ -1012,7 +1012,7 @@ const TankDetails = () => {
 
 // FED-BATCH FORM COMPONENT
 const FedBatchForm = ({ tankId, onSave, onCancel, availableStocks = [] }) => {
-  const interventionTypeOptions = [
+  const defaultInterventionTypeOptions = [
     { value: 'fedbatch', label: 'Fed-Batch (Besin Takviyesi)' },
     { value: 'chemical_dosage', label: 'Kimyasal Dozaj' },
     { value: 'waterchange', label: 'Su Değişimi' },
@@ -1034,6 +1034,28 @@ const FedBatchForm = ({ tankId, onSave, onCancel, availableStocks = [] }) => {
     { value: 'incident_recovery', label: 'Olay Kurtarma' },
     { value: 'other', label: 'Diğer' }
   ];
+
+  const interventionTypeOptions = useMemo(() => {
+    try {
+      const raw = localStorage.getItem('chlorellaInterventionDictionary');
+      const parsed = JSON.parse(raw || '[]');
+      const dbOptions = Array.isArray(parsed)
+        ? parsed
+            .map((item) => ({ value: item?.type, label: item?.label }))
+            .filter((item) => item.value && item.label)
+        : [];
+
+      const merged = [...defaultInterventionTypeOptions];
+      dbOptions.forEach((option) => {
+        if (!merged.some((existing) => existing.value === option.value)) {
+          merged.push(option);
+        }
+      });
+      return merged;
+    } catch {
+      return defaultInterventionTypeOptions;
+    }
+  }, []);
 
   const nutrientOptions = [
     { value: 'N', label: 'Azot (N)' },
