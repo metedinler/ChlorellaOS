@@ -480,10 +480,7 @@ export const materialInventory = [
   { id: 153, category: 'Pompa', name: '12V Akülü Su Aktarma ve İlaçlama Pompası', quantity: 1, unit: 'adet', unitPrice: 319, totalCost: 319, date: '2026-02', usedInProduction: true, kdvRate: 20, kdvIncluded: true, source: 'trendyol-7' },
   { id: 154, category: 'Kimyasal', name: 'İzopropil Alkol 5 Litre', quantity: 1, unit: 'adet', unitPrice: 460, totalCost: 460, date: '2026-02', usedInProduction: true, kdvRate: 20, kdvIncluded: true, source: 'trendyol-7' },
   { id: 155, category: 'Kimyasal', name: 'Aseton 5 Litre', quantity: 1, unit: 'adet', unitPrice: 330, totalCost: 330, date: '2026-02', usedInProduction: true, kdvRate: 20, kdvIncluded: true, source: 'trendyol-7' },
-  { id: 156, category: 'Lab Ekipman', name: 'Mikroskop Yedek Parça Paketi (objektif, tabla, lamba, vidalar)', quantity: 1, unit: 'paket', unitPrice: 2000, totalCost: 2000, date: '2026-02', usedInProduction: true, source: 'letgo-8' },
-
-  { id: 157, category: 'Besi Yeri Stok', name: 'BBM Stok Çözelti Seti', quantity: 1, unit: 'set', unitPrice: 0, totalCost: 0, date: '2026-02', usedInProduction: true, source: 'internal-stock', stockSolutionMode: true, mediumCode: 'BBM', compatibleMedia: ['BBM'], note: 'BBM stok çözelti sistemi ile besi yeri oluşturma akışına bağlıdır' },
-  { id: 158, category: 'Besi Yeri Stok', name: 'BS11 Stok Çözelti Seti', quantity: 1, unit: 'set', unitPrice: 0, totalCost: 0, date: '2026-02', usedInProduction: true, source: 'internal-stock', stockSolutionMode: true, mediumCode: 'BS11', compatibleMedia: ['BS11'], note: 'BS11 stok çözelti sistemi ile besi yeri oluşturma akışına bağlıdır' }
+  { id: 156, category: 'Lab Ekipman', name: 'Mikroskop Yedek Parça Paketi (objektif, tabla, lamba, vidalar)', quantity: 1, unit: 'paket', unitPrice: 2000, totalCost: 2000, date: '2026-02', usedInProduction: true, source: 'letgo-8' }
 ];
 
 // Toplam maliyet hesaplama
@@ -512,6 +509,8 @@ export const monitoringParameters = {
     { key: 'OD650', name: 'OD650', unit: 'Abs', min: 0, max: 2.5, optimal: 1.3, icon: 'Eye', note: 'Phycocyanin' },
     { key: 'OD680', name: 'OD680', unit: 'Abs', min: 0, max: 2.5, optimal: 1.2, icon: 'Eye', note: 'Klorofil a' },
     { key: 'OD750', name: 'OD750', unit: 'Abs', min: 0, max: 1.5, optimal: 0.8, icon: 'Eye', note: 'Scattering' },
+    { key: 'OD680Concentration', name: 'OD680 Gerçek Değer', unit: 'mg/L', min: 0, max: 5000, optimal: 1200, icon: 'Beaker', note: 'Kalibrasyon eğrisi ile hesaplanan konsantrasyon' },
+    { key: 'OD750Concentration', name: 'OD750 Gerçek Değer', unit: 'mg/L', min: 0, max: 5000, optimal: 900, icon: 'Beaker', note: 'Kalibrasyon eğrisi ile hesaplanan konsantrasyon' },
     { key: 'color', name: 'Renk Tonu', unit: 'Green Index', min: 0, max: 10, optimal: 8, icon: 'Palette', note: 'Görsel değerlendirme' }
   ],
   light: [
